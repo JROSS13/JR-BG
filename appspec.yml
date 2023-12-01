@@ -16,6 +16,6 @@ hooks:
       runas: root
 
   ApplicationStops:
-    - locations: /scripts/stop_server
+    - locations: scripts/stop_server
       timeout: 300
       runas: root
